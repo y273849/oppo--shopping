@@ -1,0 +1,765 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "OPPOSans20";
+  background: #f4f4f4;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "OPPOSans20";
+}
+
+img {
+  border: none;
+}
+
+.headermain {
+  width: 100%;
+  background: #000000;
+}
+
+header {
+  width: 1200px;
+  height: 50px;
+  background: #000000;
+  margin: 0 auto;
+}
+
+header ul li {
+  float: left;
+  line-height: 50px;
+}
+
+header ul li a {
+  font-size: 14px;
+  color: rgba(241, 241, 241, 0.8);
+  margin-right: 70px;
+}
+
+.bannermain {
+  width: 100%;
+  height: 770px;
+}
+
+.banner {
+  overflow: hidden;
+  height: 770px;
+  clear: both;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.banner .nav {
+  width: 1155px;
+  height: 88px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
+  padding-right: 45px;
+}
+
+.banner .nav .logo {
+  width: 220px;
+  height: 88px;
+  margin: 0 10px;
+  font-size: 26px;
+  line-height: 88px;
+  position: absolute;
+}
+
+.banner .nav .logo img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.banner .nav .logo span {
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+.banner .nav .logo a {
+  color: black;
+}
+
+.banner .nav .dh ul {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 30px;
+}
+
+.banner .nav .dh ul li {
+  padding: 0 30px;
+}
+
+.banner .nav .dh ul li a {
+  display: block;
+  height: 88px;
+  line-height: 88px;
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.banner .nav .dh ul span {
+  display: block;
+  line-height: 88px;
+}
+
+.banner .box {
+  width: 100%;
+  height: 182px;
+  background: white;
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+  display: none;
+  padding-top: 88px;
+  transform: translateY(-88px);
+}
+
+.banner .box ul {
+  display: flex;
+  justify-content: center;
+}
+
+.banner .box ul li {
+  width: 187px;
+  height: 186px;
+  text-align: center;
+}
+
+.banner .box ul li img {
+  width: 138px;
+  height: 138px;
+}
+
+.banner .box ul li h3 {
+  width: 187px;
+  height: 18px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.banner .box ul a {
+  color: #333;
+}
+
+.banner .box .box-yijia {
+  display: none;
+}
+
+.banner .wraper {
+  width: 270px;
+  padding: 10px 0;
+  display: none;
+  position: absolute;
+  z-index: 2;
+  left: 1410px;
+  top: 70px;
+  background: white;
+  transition: all 0.5s;
+  box-shadow: 0 1px 2px 0 rgba(102, 102, 102, 0.5);
+}
+
+.banner .wraper ul li {
+  display: block;
+  border-bottom: 1px rgba(0, 0, 0, 0.082) solid;
+  padding: 18px 0;
+  margin: 0 28px;
+}
+
+.banner .wraper ul li a {
+  color: #333;
+}
+
+.banner .wraper ul li img {
+  vertical-align: middle;
+}
+
+.banner .wraper ul li span {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.banner .wraper ul .lastLi {
+  border-bottom: none;
+}
+
+.banner .display {
+  display: block;
+}
+
+.banner #slider {
+  width: 100%;
+  height: 770px;
+  position: relative;
+}
+
+.banner #slider img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner #slider ol {
+  position: absolute;
+  bottom: 150px;
+  left: 870px;
+  padding: 3px;
+  z-index: 1;
+}
+
+.banner #slider ol li {
+  background: #555d69;
+  border-radius: 8px;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.sectionmain {
+  width: 100%;
+}
+
+.section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section .section-top {
+  width: 1200px;
+  height: 34px;
+  margin-top: 65px;
+  margin-bottom: 22px;
+}
+
+.section .section-top ul {
+  height: 34px;
+  float: right;
+}
+
+.section .section-top ul li {
+  float: left;
+}
+
+.section .section-top ul li span {
+  display: block;
+  padding: 0 15px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 15px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.section .section-top ul li .span1 {
+  background-color: white;
+  color: #F34141;
+}
+
+.section .section-top ul li:hover span {
+  background-color: white;
+  color: #F34141;
+}
+
+.section .section-oppo {
+  width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body .section .section-oppo .col1 {
+  width: 620px;
+  height: 480px;
+}
+
+body .section .section-oppo .col1 .oppo-col1 {
+  width: 580px;
+  height: 440px;
+  margin: 20px;
+  background: white;
+}
+
+body .section .section-oppo .col1 .oppo-col1 a {
+  font-weight: normal;
+  color: #333;
+  display: block;
+  width: 580px;
+  height: 440px;
+}
+
+body .section .section-oppo .col1 .oppo-col1 img {
+  width: auto;
+  height: 100%;
+}
+
+body .section .section-oppo .col1 .oppo-col1 .title-box {
+  width: 290px;
+  height: 80px;
+  position: relative;
+  left: 0px;
+  top: -254px;
+}
+
+body .section .section-oppo .col1 .oppo-col1 .title-box h4 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+body .section .section-oppo .col1 .oppo-col1 .title-box h5 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.section .section-oppo .col {
+  width: 310px;
+  height: 480px;
+}
+
+.section .section-oppo .col .oppo-col {
+  width: 270px;
+  height: 440px;
+  margin: 20px;
+  vertical-align: middle;
+  background: white;
+  text-align: center;
+}
+
+.section .section-oppo .col .oppo-col a {
+  display: block;
+  color: #333333;
+}
+
+.section .section-oppo .col .oppo-col img {
+  width: 100%;
+  height: 203px;
+  vertical-align: middle;
+  margin: 90px auto 50px auto;
+}
+
+.section .section-oppo .col .oppo-col .title-box h4 {
+  font-size: 18px;
+}
+
+.section .section-oppo .col .oppo-col .title-box h5 {
+  font-size: 16px;
+}
+
+.section .section-intel {
+  width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  display: none;
+}
+
+.section .section-intel .oppo-col1 {
+  width: 580px;
+  height: 440px;
+  margin: 20px;
+  background: white;
+}
+
+.section .section-intel .oppo-col1 a {
+  font-weight: normal;
+  color: #333;
+  display: block;
+  width: 580px;
+  height: 440px;
+}
+
+.section .section-intel .oppo-col1 img {
+  width: auto;
+  height: 100%;
+}
+
+.section .section-intel .oppo-col1 .title-box {
+  width: 290px;
+  height: 80px;
+  position: relative;
+  left: 0px;
+  top: -254px;
+}
+
+.section .section-intel .oppo-col1 .title-box h4 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.section .section-intel .oppo-col1 .title-box h5 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.section .section-intel .col {
+  width: 310px;
+  height: 480px;
+}
+
+.section .section-intel .col .oppo-col {
+  width: 270px;
+  height: 440px;
+  margin: 20px;
+  vertical-align: middle;
+  background: white;
+  text-align: center;
+}
+
+.section .section-intel .col .oppo-col a {
+  display: block;
+  color: #333333;
+}
+
+.section .section-intel .col .oppo-col img {
+  width: 100%;
+  height: 203px;
+  vertical-align: middle;
+  margin: 90px auto 50px auto;
+}
+
+.section .section-intel .col .oppo-col .title-box h4 {
+  font-size: 18px;
+}
+
+.section .section-intel .col .oppo-col .title-box h5 {
+  font-size: 16px;
+}
+
+.section-yijia {
+  width: 1200px;
+  padding: 60px 0 80px;
+}
+
+.section-yijia .section-top {
+  width: 1200px;
+  height: 34px;
+  margin-top: 65px;
+  margin-bottom: 22px;
+}
+
+.section-yijia .section-top ul {
+  height: 34px;
+  float: right;
+}
+
+.section-yijia .section-top ul li {
+  float: left;
+}
+
+.section-yijia .section-top ul li span {
+  display: block;
+  padding: 0 15px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 15px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.section-yijia .section-top ul li .span1 {
+  background-color: white;
+  color: #F34141;
+}
+
+.section-yijia .section-top ul li:hover span {
+  background-color: white;
+  color: #F34141;
+}
+
+.section-yijia .section-yijia-shouji {
+  width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-yijia .section-yijia-shouji .col {
+  width: 310px;
+  height: 480px;
+}
+
+.section-yijia .section-yijia-shouji .col .oppo-col {
+  width: 270px;
+  height: 440px;
+  margin: 20px;
+  vertical-align: middle;
+  background: white;
+  text-align: center;
+}
+
+.section-yijia .section-yijia-shouji .col .oppo-col a {
+  display: block;
+  color: #333333;
+}
+
+.section-yijia .section-yijia-shouji .col .oppo-col img {
+  width: 100%;
+  height: 203px;
+  vertical-align: middle;
+  margin: 90px auto 50px auto;
+}
+
+.section-yijia .section-yijia-shouji .col .oppo-col .title-box h4 {
+  font-size: 18px;
+}
+
+.section-yijia .section-yijia-shouji .col .oppo-col .title-box h5 {
+  font-size: 16px;
+}
+
+.section-yijia .section-yijia-else {
+  width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  display: none;
+}
+
+body .section-yijia .section-yijia-else .col1 {
+  width: 620px;
+  height: 480px;
+}
+
+body .section-yijia .section-yijia-else .col1 .oppo-col1 {
+  width: 580px;
+  height: 440px;
+  margin: 20px;
+  background: white;
+}
+
+body .section-yijia .section-yijia-else .col1 .oppo-col1 a {
+  font-weight: normal;
+  color: #333;
+  display: block;
+  width: 580px;
+  height: 440px;
+}
+
+body .section-yijia .section-yijia-else .col1 .oppo-col1 img {
+  width: auto;
+  height: 100%;
+}
+
+body .section-yijia .section-yijia-else .col1 .oppo-col1 .title-box {
+  width: 290px;
+  height: 80px;
+  position: relative;
+  left: 0px;
+  top: -254px;
+}
+
+body .section-yijia .section-yijia-else .col1 .oppo-col1 .title-box h4 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+body .section-yijia .section-yijia-else .col1 .oppo-col1 .title-box h5 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.section-yijia .section-yijia-else .col {
+  width: 310px;
+  height: 480px;
+}
+
+.section-yijia .section-yijia-else .col .oppo-col {
+  width: 270px;
+  height: 440px;
+  margin: 20px;
+  vertical-align: middle;
+  background: white;
+  text-align: center;
+}
+
+.section-yijia .section-yijia-else .col .oppo-col a {
+  display: block;
+  color: #333333;
+}
+
+.section-yijia .section-yijia-else .col .oppo-col img {
+  width: auto;
+  height: 203px;
+  vertical-align: middle;
+  margin: 90px auto 50px auto;
+}
+
+.section-yijia .section-yijia-else .col .oppo-col .title-box h4 {
+  font-size: 18px;
+}
+
+.section-yijia .section-yijia-else .col .oppo-col .title-box h5 {
+  font-size: 16px;
+}
+
+.section-end {
+  width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 0 80px;
+}
+
+.section-end .oppo-col1 {
+  width: 580px;
+  height: 440px;
+  margin: 20px;
+  background: white;
+}
+
+.section-end .oppo-col1 a {
+  font-weight: normal;
+  color: #333;
+  display: block;
+  width: 580px;
+  height: 440px;
+}
+
+.section-end .oppo-col1 img {
+  width: auto;
+  height: 100%;
+}
+
+.section-end .oppo-col1 .title-box {
+  width: 290px;
+  height: 80px;
+  position: relative;
+  left: 0px;
+  top: -254px;
+}
+
+.section-end .oppo-col1 .title-box h4 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.section-end .oppo-col1 .title-box h5 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.section-end .col {
+  width: 310px;
+  height: 480px;
+}
+
+.section-end .col .oppo-col {
+  width: 270px;
+  height: 440px;
+  margin: 20px;
+  vertical-align: middle;
+  background: white;
+  text-align: center;
+}
+
+.section-end .col .oppo-col a {
+  display: block;
+  color: #333333;
+}
+
+.section-end .col .oppo-col img {
+  width: 100%;
+  height: 203px;
+  vertical-align: middle;
+  margin: 90px auto 50px auto;
+}
+
+.section-end .col .oppo-col .title-box h4 {
+  font-size: 18px;
+}
+
+.section-end .col .oppo-col .title-box h5 {
+  font-size: 16px;
+}
+
+footer {
+  padding: 60px 0;
+  width: 100%;
+  background: white;
+}
+
+footer .of-nav {
+  width: 1200px;
+  height: 209px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+footer .of-nav nav {
+  width: 744px;
+  height: 209px;
+  display: flex;
+}
+
+footer .of-nav nav ul {
+  float: left;
+  flex: 1;
+}
+
+footer .of-nav nav ul a {
+  color: #666;
+  font-size: 12px;
+}
+
+footer .of-nav .of-service {
+  width: 173px;
+  height: 53px;
+  background: #666;
+  text-align: center;
+  line-height: 53px;
+  border-radius: 26px;
+}
+
+footer .of-cp-content {
+  width: 1200px;
+  height: 68px;
+  text-align: center;
+  font-size: 12px;
+  color: #98979A;
+  border-top: 1px solid #EBEBEB;
+  padding-top: 24px;
+  margin-top: 72px;
+  margin: 0 auto;
+}
+
+footer .of-cp-content a {
+  color: #98979A;
+}
+
+footer .of-cp-content .of-cp-content-end {
+  width: 300px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer .of-cp-content .of-cp-content-end img {
+  float: left;
+}
+
+footer .of-cp-content .of-cp-content-end p {
+  float: left;
+}

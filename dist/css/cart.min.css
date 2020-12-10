@@ -1,0 +1,395 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "OPPOSans20";
+  background-color: #f4f4f4;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "OPPOSans20";
+}
+
+img {
+  border: none;
+}
+
+.navmain {
+  width: 100%;
+  height: 88px;
+  background: white;
+}
+
+.navmain .nav {
+  width: 1155px;
+  height: 88px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  padding-right: 45px;
+}
+
+.navmain .nav .logo {
+  width: 220px;
+  height: 88px;
+  margin: 0 10px;
+  font-size: 26px;
+  line-height: 88px;
+  position: absolute;
+}
+
+.navmain .nav .logo img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.navmain .nav .logo span {
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+.navmain .nav .logo a {
+  color: black;
+}
+
+.navmain .nav .dh ul {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 30px;
+}
+
+.navmain .nav .dh ul li {
+  padding: 0 30px;
+}
+
+.navmain .nav .dh ul li a {
+  display: block;
+  height: 88px;
+  line-height: 88px;
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navmain .nav .dh ul span {
+  display: block;
+  line-height: 88px;
+}
+
+.navmain .box {
+  width: 100%;
+  height: 182px;
+  background: white;
+  display: none;
+  padding-top: 88px;
+  transform: translateY(-88px);
+}
+
+.navmain .box ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navmain .box ul li {
+  width: 187px;
+  height: 186px;
+  text-align: center;
+}
+
+.navmain .box ul li img {
+  width: 138px;
+  height: 138px;
+}
+
+.navmain .box ul li h3 {
+  width: 187px;
+  height: 18px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.navmain .box ul a {
+  color: #333;
+}
+
+.navmain .box .box-yijia {
+  display: none;
+}
+
+.navmain .wraper {
+  width: 270px;
+  padding: 10px 0;
+  display: none;
+  position: absolute;
+  z-index: 2;
+  left: 1410px;
+  top: 70px;
+  background: white;
+  transition: all 0.5s;
+  box-shadow: 0 1px 2px 0 rgba(102, 102, 102, 0.5);
+}
+
+.navmain .wraper ul li {
+  display: block;
+  border-bottom: 1px rgba(0, 0, 0, 0.082) solid;
+  padding: 18px 0;
+  margin: 0 28px;
+}
+
+.navmain .wraper ul li img {
+  vertical-align: middle;
+}
+
+.navmain .wraper ul li span {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.navmain .wraper ul .lastLi {
+  border-bottom: none;
+}
+
+.navmain .display {
+  display: block;
+}
+
+.sectionmain {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 40px 0 100px;
+}
+
+.section {
+  width: 1200px;
+  height: 490px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+
+.section .shp-car {
+  width: 228px;
+  height: 224px;
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+}
+
+.section .shp-car img {
+  width: 84px;
+  height: 60px;
+}
+
+.section .shp-car p {
+  font-size: 14px;
+  color: #666;
+  line-height: 18px;
+  margin-top: 25px;
+}
+
+.section .shp-car a {
+  display: inline-block;
+  width: 196px;
+  height: 60px;
+  background: #f34141;
+  color: #fff;
+  line-height: 60px;
+  margin: 30px auto;
+  transition: all 0.3s;
+}
+
+.section .shp-car a:hover {
+  background: #fb6332;
+}
+
+.section .shp-row {
+  width: 1120px;
+  height: 355px;
+  padding: 30px 40px;
+  margin: 20px auto 0;
+}
+
+.section .shp-row .shp-row-title {
+  width: 1120px;
+  height: 25px;
+  padding-bottom: 16px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.section .shp-row .shp-row-list {
+  width: 1120px;
+  height: 120px;
+  border-top: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+  display: flex;
+  align-items: center;
+}
+
+.section .shp-row .shp-row-list ul {
+  width: 1120px;
+  height: 80px;
+  padding: 6px 0px;
+  color: #333;
+  font-size: 14px;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section .shp-row .shp-row-list ul .img img {
+  width: 80px;
+  height: 80px;
+}
+
+.section .shp-row .shp-row-list ul .name a {
+  color: #333;
+  font-size: 14px;
+}
+
+.section .shp-row .shp-row-list ul .increase input {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.section .shp-row .shp-row-bar {
+  width: 1120px;
+  height: 122px;
+  margin: 50px 0px 20px;
+}
+
+.section .shp-row .shp-row-bar .shp-row-bar-lf {
+  width: 924px;
+  height: 122px;
+  float: left;
+}
+
+.section .shp-row .shp-row-bar .shp-row-bar-lf a {
+  color: #acacac;
+  font-size: 14px;
+}
+
+.section .shp-row .shp-row-bar .shp-row-bar-rt {
+  width: 196px;
+  height: 122px;
+  float: right;
+}
+
+.section .shp-row .shp-row-bar .shp-row-bar-rt p {
+  width: 196px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.section .shp-row .shp-row-bar .shp-row-bar-rt p label {
+  font-weight: normal;
+  font-size: 14px;
+  color: #666;
+  line-height: 60px;
+}
+
+.section .shp-row .shp-row-bar .shp-row-bar-rt p b {
+  font-size: 30px;
+  color: #333;
+  font-weight: normal;
+}
+
+.section .shp-row .shp-row-bar .shp-row-bar-rt span {
+  display: block;
+  width: 196px;
+  height: 60px;
+  background: #f34141;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 60px;
+  text-align: center;
+}
+
+footer {
+  padding: 60px 0;
+  width: 100%;
+  background: white;
+}
+
+footer .of-nav {
+  width: 1200px;
+  height: 209px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+footer .of-nav nav {
+  width: 744px;
+  height: 209px;
+  display: flex;
+}
+
+footer .of-nav nav ul {
+  float: left;
+  flex: 1;
+}
+
+footer .of-nav nav ul a {
+  color: #666;
+  font-size: 12px;
+}
+
+footer .of-nav .of-service {
+  width: 173px;
+  height: 53px;
+  background: #666;
+  text-align: center;
+  line-height: 53px;
+  border-radius: 26px;
+}
+
+footer .of-cp-content {
+  width: 1200px;
+  height: 68px;
+  text-align: center;
+  font-size: 12px;
+  color: #98979A;
+  border-top: 1px solid #EBEBEB;
+  padding-top: 24px;
+  margin-top: 72px;
+  margin: 0 auto;
+}
+
+footer .of-cp-content a {
+  color: #98979A;
+}
+
+footer .of-cp-content .of-cp-content-end {
+  width: 300px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer .of-cp-content .of-cp-content-end img {
+  float: left;
+}
+
+footer .of-cp-content .of-cp-content-end p {
+  float: left;
+}

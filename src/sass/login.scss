@@ -1,0 +1,184 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+html body{
+    height: 100%;
+}
+body{
+    // font-family: "OPPOSans20";
+    font-size: 14px;
+    background-color: #fff;
+    background: url(../img/heytap_bg.1612deb5.png);
+}
+li{
+	list-style: none;
+}
+a{
+    text-decoration: none;
+    // font-family: "OPPOSans20";
+}
+img{
+	border: none;
+}
+
+.box{
+    height: 100%;
+    .content{
+        width: 380px;
+        height: 375px;
+        background: white;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        padding-top: 50px;
+        h1{
+            font-weight: 100;
+            width: 320px;
+            height: 37px;
+            color: #000;
+            font-size: 26px;
+            line-height: 37px;
+            text-align: center;
+            margin: 0 auto 30px;
+        }
+        .tab{
+            width: 300px;
+            height: 21px;
+            margin: 0 auto;
+            display: flex;
+            span{
+                display: block;
+                width: 150px;
+                text-align: center;
+                cursor: pointer;
+            }
+            .on{
+                border-right: 1px solid rgba(0,0,0,.1);
+            }
+        }
+        .txt input{
+            width: 300px;
+            height: 45px;
+            background: #f7f7f7;
+            margin: 20px auto 9px;
+            display: block;
+            border-radius: 9px;
+            outline: none;
+            border: none;
+            text-indent: 16px;
+        }
+        .pass{
+            margin: 0 auto 26px;
+            width: 300px;
+            input{
+                width: 300px;
+                height: 45px;
+                background: #f7f7f7;
+                border-radius: 9px;
+                outline: none;
+                border: none;
+                text-indent: 16px;
+            }
+            p{
+                width: 300px;
+                height: 26px;
+                color: rgba(0,0,0,.6);
+                text-align: left;
+                font-size: 12px;
+                line-height: 26px;
+                margin-top: 5px;
+                text-indent: 10px;
+                span{
+                    cursor: pointer;
+                }
+            }
+        }
+        .ver{
+            width: 300px;
+            height: 45px;
+            margin: 0 auto 26px;
+            display: none;
+            input{
+                width: 205px;
+                height: 45px;
+                margin-right:5px;
+                border-radius: 9px;
+                outline: none;
+                border: none;
+                text-indent: 16px;
+                background: #f7f7f7;
+                vertical-align: middle;
+            }
+            span{
+                width: 72px;
+                height: 45px;
+                padding: 0 8px;
+                margin: 1px;
+                color: #fff;
+                background: #000;
+                opacity: .15;
+                display: inline-block;
+                border-radius: 9px;
+                line-height: 45px;
+                vertical-align: middle;
+            }
+            
+        }
+        .btn{
+            width: 300px;
+            height: 45px;
+            margin: 0 auto;
+            input{
+                width: 300px;
+                height: 45px;
+                background: #2ad181;
+                color: #fff;
+                font-size: 14px;
+                text-align: center;
+                line-height: 45px;
+                border-radius: 9px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+        }
+        .end{
+            width: 300px;
+            height: 16px;
+            margin: 6px auto 0px;
+            padding-bottom: 26px;
+            display: flex;
+            justify-content: space-between;
+            span{
+                color: rgba(0,0,0,.6);
+                font-size: 12px;
+                cursor: pointer;
+            }
+            .reg{
+                color: #2ad181;
+            }
+        }
+    }
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    p{
+        width: 100%;
+        height: 16px;
+        font-size: 12px;
+        color: #9b9b9b;
+        text-align: center;
+        span{
+            margin-left: 5px;
+        }
+    }
+}
